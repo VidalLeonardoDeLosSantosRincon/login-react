@@ -1,0 +1,57 @@
+.ctr_login {
+    background:rgba(0, 0, 0, 0.05);
+    height:100vh;
+    padding:5px 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctr_login form[id="form_login"] {
+    background:white;
+    min-height:200px;
+    width:400px;
+    padding:5px 30px;
+    box-sizing: border-box;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius:8px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctr_login form[id="form_login"] h4 {
+    font-weight: 300;
+    font-size:20px;
+    align-self: flex-start;
+    padding:0;
+    margin:5px 0;
+}
+
+.ctr_login form[id="form_login"] ._fields{
+    height:35px;
+    width:100%;
+    margin:5px 0;
+    padding:5px 10px;
+    box-sizing: border-box;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    border-radius:5px;
+    outline-color:lightseagreen;
+}
+
+.ctr_login form[id="form_login"] button[id="btn_save"] {
+    background:lightseagreen;
+    color:white;
+    margin:5px 0;
+    padding:8px 20px;
+    box-sizing: border-box;
+    border:none;
+    border-radius:5px;
+    align-self: flex-start;
+    cursor: pointer;
+}
