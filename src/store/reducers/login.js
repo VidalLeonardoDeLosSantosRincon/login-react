@@ -5,7 +5,7 @@ const INITIAL_STATE = {
 
 export const loginReducer = (state = INITIAL_STATE, action) => {
     switch(action.type){
-        case "LOG_USER":
+        case "ADD_USER":
             return { ...state, ...action.payload }
         case "USER_INFO":
             return state;
